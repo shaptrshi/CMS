@@ -9,8 +9,8 @@ app.use(cors())
 const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '',
-    database: 'db'
+    password: '',   // Enter the password to the database
+    database: 'db'  // Add the database name here
 } );
 
 app.post('/api/create', (req, res) => {
