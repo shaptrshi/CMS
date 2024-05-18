@@ -1,0 +1,42 @@
+/* AddUser.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  h6 {
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
